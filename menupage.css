@@ -1,0 +1,13 @@
+body
+{
+	text-align:center;
+	background: url("menuback.jpg");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+header
+{
+	font-size:25px;
+	color : brown;
+}

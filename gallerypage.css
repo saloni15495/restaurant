@@ -1,0 +1,31 @@
+body
+{
+	background-color: pink;
+}
+h3
+{
+	text-align:center;
+	font-size: 50px;
+	color:#98AFC7;
+}
+.addimg
+{
+	display : flex;
+}
+.subpart
+{
+	flex:50%;
+	padding:10px;
+}
+@keyframes pulse {
+  0%, 100% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: red;
+  }
+}
+.subpart:hover
+{
+	 animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+}
